@@ -1,0 +1,73 @@
+IplImage* pSrc = NULL;
+    pSrc = cvCreateImage(cvGetSize(image),image->depth,image->nChannels);//image为输入的灰度图像
+    cvCopyImage(image,pSrc);
+    int width = pSrc->width;
+    int height = pSrc->height;
+ 
+    static int nWeight[2][3][3];
+    nWeight[0][0][0]=-1;
+    nWeight[0][0][1]=0;
+    nWeight[0][0][2]=1;
+    nWeight[0][1][0]=-2;
+    nWeight[0][1][1]=0;
+    nWeight[0][1][2]=2;
+    nWeight[0][2][0]=-1;
+    nWeight[0][2][1]=0;
+    nWeight[0][2][2]=1;
+    nWeight[1][0][0]=1;
+    nWeight[1][0][1]=2;
+    nWeight[1][0][2]=1;
+    nWeight[1][1][0]=0;
+    nWeight[1][1][1]=0;
+    nWeight[1][1][2]=0;
+    nWeight[1][2][0]=-1;
+    nWeight[1][2][1]=-2;
+    nWeight[1][2][2]=-1;
+     
+    int nTmp[3][3];
+    FLOAT dGray;
+    FLOAT dGradOne;
+    FLOAT dGradTwo;
+    int x,y;
+    int* gra=new int[height*width];
+    int gr;
+    for (y=0;y<height;y++)
+    {
+        for (x=0;x<width;x++)
+        {
+            int image_pos=width*y+x;
+            gr = ((uchar *)(pSrc->imageData))[y*pSrc->widthStep+x];
+            gra[image_pos]=gr;
+        }
+    }
+ 
+    //暂不计算边缘点
+    for (y=1;y<height-1;y++)
+    {
+        for (x=1;x<width-1;x++)
+        {
+            dGray=0;
+            dGradOne=0;
+            dGradTwo=0;
+            nTmp[0][0]=gra[(y-1)*width+x-1];
+            nTmp[0][1]=gra[(y-1)*width+x];
+            nTmp[0][2]=gra[(y-1)*width+x+1];
+            nTmp[1][0]=gra[y*width+x-1];
+            nTmp[1][1]=gra[y*width+x];
+            nTmp[1][2]=gra[y*width+x+1];
+            nTmp[2][0]=gra[(y+1)*width+x-1];
+            nTmp[2][1]=gra[(y+1)*width+x];
+            nTmp[2][2]=gra[(y+1)*width+x+1];
+            for (int yy=0;yy<3;yy++)
+            {
+                for (int xx=0;xx<3;xx++)
+                {
+                    dGradOne+=nTmp[yy][xx]*nWeight[0][yy][xx];//X轴方向
+                    dGradTwo+=nTmp[yy][xx]*nWeight[1][yy][xx];//Y轴方向
+                }
+            }
+            dGray=dGradOne*dGradOne+dGradTwo*dGradTwo;
+            dGray=sqrtf(dGray);
+            deltar[y*width+x]=(int)dGray;
+        }
+    }

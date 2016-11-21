@@ -1,0 +1,38 @@
+﻿生成启动时间为 2015/10/8 14:53:20。
+     1>项目“F:\自己的程序\C++\BMP'Read and write\BMP'Read and write\BMP'Read and write.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\自己的程序\C++\BMP'Read and write\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\BMP'Read and write.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\BMP'Read and write\BMP'Read and write\loadimage.cpp"
+         loadimage.cpp
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(59): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(132): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(266): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(431): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(522): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(523): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(632): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(633): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(1023): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(1100): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\bmp'read and write\bmp'read and write\loadimage.cpp(1175): error C2440: “=”: 无法从“void *”转换为“BYTE *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>已完成生成项目“F:\自己的程序\C++\BMP'Read and write\BMP'Read and write\BMP'Read and write.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.05

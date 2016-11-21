@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/9/23 16:05:07。
+     1>项目“F:\自己的程序\C++\readpicture\readpicture\readpicture.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\readpicture.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\readpicture.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt readpicture.cpp
+         readpicture.cpp
+     1>f:\自己的程序\c++\readpicture\readpicture\readpicture.cpp(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\自己的程序\c++\readpicture\readpicture\readpicture.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\自己的程序\c++\readpicture\readpicture\readpicture.cpp(68): error C2440: “=”: 无法从“void *”转换为“unsigned char *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\readpicture\readpicture\readpicture.cpp(96): error C2440: “=”: 无法从“void *”转换为“unsigned char *”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>f:\自己的程序\c++\readpicture\readpicture\readpicture.cpp(151): error C2065: “pixout”: 未声明的标识符
+     1>已完成生成项目“F:\自己的程序\C++\readpicture\readpicture\readpicture.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.23

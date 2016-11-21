@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BMP'Read and write", "BMP'Read and write\BMP'Read and write.vcxproj", "{A0483D4A-8A73-40D3-B14C-1F3B5A8E5077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0483D4A-8A73-40D3-B14C-1F3B5A8E5077}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0483D4A-8A73-40D3-B14C-1F3B5A8E5077}.Debug|Win32.Build.0 = Debug|Win32
+		{A0483D4A-8A73-40D3-B14C-1F3B5A8E5077}.Release|Win32.ActiveCfg = Release|Win32
+		{A0483D4A-8A73-40D3-B14C-1F3B5A8E5077}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

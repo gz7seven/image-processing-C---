@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015/12/4 17:29:47。
+     1>项目“I:\我的程序\C++\sift\sift\sift.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\sift.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp sift.cpp
+         main.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         sift.cpp
+     1>sift.cpp(934): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(946): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(1197): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>sift.cpp(1273): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>sift.cpp(1283): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(1316): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>sift.cpp(1391): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(1400): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(1404): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>sift.cpp(1404): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>sift.cpp(1412): warning C4129: “.”: 不可识别的字符转义序列
+     1>sift.cpp(1447): warning C4018: “<”: 有符号/无符号不匹配
+     1>sift.cpp(1479): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\我的程序\C++\sift\Release\sift.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248d.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib opencv_nonfree248.lib opencv_ocl248.lib opencv_photo248.lib opencv_stitching248.lib opencv_superres248.lib opencv_videostab248.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\sift.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\我的程序\C++\sift\Release\sift.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\我的程序\C++\sift\Release\sift.lib" /MACHINE:X86 Release\main.obj
+         Release\sift.obj
+         正在生成代码
+         已完成代码的生成
+         sift.vcxproj -> I:\我的程序\C++\sift\Release\sift.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\我的程序\C++\sift\Release\sift.exe;#1" /manifest Release\sift.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\sift.unsuccessfulbuild”。
+         正在对“Release\sift.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“I:\我的程序\C++\sift\sift\sift.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.93

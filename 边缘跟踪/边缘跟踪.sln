@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "边缘跟踪", "边缘跟踪\边缘跟踪.vcxproj", "{665D3D8C-07AB-4F75-88E6-936D5D324F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665D3D8C-07AB-4F75-88E6-936D5D324F62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{665D3D8C-07AB-4F75-88E6-936D5D324F62}.Debug|Win32.Build.0 = Debug|Win32
+		{665D3D8C-07AB-4F75-88E6-936D5D324F62}.Release|Win32.ActiveCfg = Release|Win32
+		{665D3D8C-07AB-4F75-88E6-936D5D324F62}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

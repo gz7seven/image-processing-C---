@@ -1,0 +1,271 @@
+﻿生成启动时间为 2016/6/12 23:34:50。
+     1>项目“I:\程序\自己\C++\分水岭1\分水岭1\分水岭1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\分水岭1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "分水岭1.cpp"
+         分水岭1.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>分水岭1.cpp(101): error C2227: “->gradient”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(102): error C2227: “->x”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(103): error C2227: “->y”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(121): error C2227: “->isflag”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(122): error C2227: “->ptcount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(123): error C2227: “->l”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(124): error C2227: “->u”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(125): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(132): error C2541: “delete”: 不能删除不是指针的对象
+     1>分水岭1.cpp(135): error C2061: 语法错误: 标识符“MyLUV”
+     1>分水岭1.cpp(136): error C2065: “pMyColorSpace”: 未声明的标识符
+     1>分水岭1.cpp(136): error C2227: “->RgbtoLuvPcm”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>分水岭1.cpp(146): error C2227: “->ptcount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(147): error C2227: “->l”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(147): error C2109: 下标要求数组或指针类型
+     1>分水岭1.cpp(147): error C2227: “->l”的左边必须指向类/结构/联合/泛型类型
+     1>分水岭1.cpp(148): error C2227: “->u”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(148): error C2109: 下标要求数组或指针类型
+     1>分水岭1.cpp(148): error C2227: “->u”的左边必须指向类/结构/联合/泛型类型
+     1>分水岭1.cpp(149): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(149): error C2109: 下标要求数组或指针类型
+     1>分水岭1.cpp(149): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+     1>分水岭1.cpp(157): error C2057: 应输入常量表达式
+     1>分水岭1.cpp(157): error C2466: 不能分配常量大小为 0 的数组
+     1>分水岭1.cpp(157): error C2133: “rginfoarr”: 未知的大小
+     1>分水岭1.cpp(158): error C2227: “->l”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(158): error C2227: “->l”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(158): error C2227: “->ptcount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(159): error C2227: “->u”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(159): error C2227: “->u”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(159): error C2227: “->ptcount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(160): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(160): error C2227: “->v”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(160): error C2227: “->ptcount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(181): error C3861: “FindMergedRgn”: 找不到标识符
+     1>分水岭1.cpp(283): error C2082: 形参“image”的重定义
+     1>分水岭1.cpp(446): error C2227: “->x”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(447): error C2227: “->y”的左边必须指向类/结构/联合/泛型类型
+                 类型是“int”
+     1>分水岭1.cpp(457): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(457): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(467): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(467): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(477): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(477): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(487): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(487): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(494): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(494): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(497): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(497): error C2232: “->std::queue<_Ty>::front”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(498): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(498): error C2232: “->std::queue<_Ty>::pop”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(501): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(501): error C2232: “->std::queue<_Ty>::empty”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(506): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(506): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(508): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(508): error C2232: “->std::queue<_Ty>::front”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(509): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(509): error C2232: “->std::queue<_Ty>::pop”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(542): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(542): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(572): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(572): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(602): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(602): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(632): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(632): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(639): error C2065: “ini”: 未声明的标识符
+     1>分水岭1.cpp(639): error C2065: “ini”: 未声明的标识符
+     1>分水岭1.cpp(639): error C2065: “ini”: 未声明的标识符
+     1>分水岭1.cpp(641): error C2065: “ini”: 未声明的标识符
+     1>分水岭1.cpp(641): error C2227: “->x”的左边必须指向类/结构/联合/泛型类型
+     1>分水岭1.cpp(642): error C2065: “ini”: 未声明的标识符
+     1>分水岭1.cpp(642): error C2227: “->y”的左边必须指向类/结构/联合/泛型类型
+     1>分水岭1.cpp(649): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(649): error C2232: “->std::queue<_Ty>::push”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(652): error C2819: “std::queue<_Ty>”类型没有重载成员“operator ->”
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 是否改用“.”?
+     1>分水岭1.cpp(652): error C2232: “->std::queue<_Ty>::empty”: 左操作数有“class”类型，使用“.”
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>分水岭1.cpp(652): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“I:\程序\自己\C++\分水岭1\分水岭1\分水岭1.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.29

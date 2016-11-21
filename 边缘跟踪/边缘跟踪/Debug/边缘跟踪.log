@@ -1,0 +1,55 @@
+﻿生成启动时间为 2016/9/7 17:02:16。
+     1>项目“K:\程序\自己\C++\边缘跟踪\边缘跟踪\边缘跟踪.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“K:\程序\自己\C++\边缘跟踪\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\边缘跟踪.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "边缘跟踪.cpp"
+         边缘跟踪.cpp
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(16): error C2731: “WinMain”: 无法重载函数
+                 k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(16) : 参见“WinMain”的声明
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(69): error C2440: “=”: 无法从“HANDLE”转换为“HINSTANCE”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(75): error C2440: “=”: 无法从“HANDLE”转换为“HINSTANCE”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(78): error C2440: “=”: 无法从“HGDIOBJ”转换为“HBRUSH”
+                 从“void*”到指向非“void”的指针的转换要求显式类型转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(79): error C2440: “=”: 无法从“const char [8]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(80): error C2440: “=”: 无法从“const char [18]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(89): error C2664: “CreateWindowExW”: 不能将参数 2 从“const char [18]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(167): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [21]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(175): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [21]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(180): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(183): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [21]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(188): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [10]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(191): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [21]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(215): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [28]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(241): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [23]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(249): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [23]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(258): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [20]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(321): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [20]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(396): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [20]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(458): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [20]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>k:\程序\自己\c++\边缘跟踪\边缘跟踪\边缘跟踪.cpp(465): error C2664: “MessageBoxW”: 不能将参数 2 从“const char [20]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>已完成生成项目“K:\程序\自己\C++\边缘跟踪\边缘跟踪\边缘跟踪.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.99

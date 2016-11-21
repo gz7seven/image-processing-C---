@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "分水岭", "分水岭\分水岭.vcxproj", "{CB5EE4BB-A065-45D2-8450-ED241760F18B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5EE4BB-A065-45D2-8450-ED241760F18B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB5EE4BB-A065-45D2-8450-ED241760F18B}.Debug|Win32.Build.0 = Debug|Win32
+		{CB5EE4BB-A065-45D2-8450-ED241760F18B}.Release|Win32.ActiveCfg = Release|Win32
+		{CB5EE4BB-A065-45D2-8450-ED241760F18B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

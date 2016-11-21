@@ -1,0 +1,38 @@
+﻿生成启动时间为 2015/9/24 20:51:03。
+     1>项目“F:\自己的程序\C++\pictureread\pictureread\pictureread.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\pictureread.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\pictureread.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BmpRot.cpp
+         BmpRot.cpp
+     1>f:\自己的程序\c++\pictureread\pictureread\bmprot.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\自己的程序\c++\pictureread\pictureread\bmprot.cpp(140): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\pictureread.exe.embed.manifest.res" Debug\pictureread_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\自己的程序\C++\pictureread\Debug\pictureread.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pictureread.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\自己的程序\C++\pictureread\Debug\pictureread.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\自己的程序\C++\pictureread\Debug\pictureread.lib" /MACHINE:X86 Debug\pictureread.exe.embed.manifest.res
+         Debug\BmpRot.obj
+         Debug\pictureread.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\pictureread.exe.embed.manifest" /manifest Debug\pictureread.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\pictureread.exe.embed.manifest.res" Debug\pictureread_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\自己的程序\C++\pictureread\Debug\pictureread.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pictureread.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\自己的程序\C++\pictureread\Debug\pictureread.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\自己的程序\C++\pictureread\Debug\pictureread.lib" /MACHINE:X86 Debug\pictureread.exe.embed.manifest.res
+         Debug\BmpRot.obj
+         Debug\pictureread.obj
+         Debug\stdafx.obj
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+         pictureread.vcxproj -> F:\自己的程序\C++\pictureread\Debug\pictureread.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pictureread.unsuccessfulbuild”。
+         正在对“Debug\pictureread.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\自己的程序\C++\pictureread\pictureread\pictureread.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.21

@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WaterShed - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WaterShed.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Temp\codefans.net\WaterShed\ImageObject.cpp"
+"D:\Temp\codefans.net\WaterShed\MainFrm.cpp"
+"D:\Temp\codefans.net\WaterShed\MyMath.cpp"
+"D:\Temp\codefans.net\WaterShed\WaterShed.cpp"
+"D:\Temp\codefans.net\WaterShed\WaterShedDoc.cpp"
+"D:\Temp\codefans.net\WaterShed\WaterShedView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WaterShed.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Temp\codefans.net\WaterShed\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+ImageLoad.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WaterShed.pdb" /debug /machine:I386 /out:"Debug/WaterShed.exe" /pdbtype:sept 
+.\Debug\ImageObject.obj
+.\Debug\MainFrm.obj
+.\Debug\MyMath.obj
+.\Debug\StdAfx.obj
+.\Debug\WaterShed.obj
+.\Debug\WaterShedDoc.obj
+.\Debug\WaterShedView.obj
+.\Debug\WaterShed.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ImageObject.cpp
+MainFrm.cpp
+MyMath.cpp
+WaterShed.cpp
+WaterShedDoc.cpp
+WaterShedView.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/WaterShed.bsc"  .\Debug\StdAfx.sbr .\Debug\ImageObject.sbr .\Debug\MainFrm.sbr .\Debug\MyMath.sbr .\Debug\WaterShed.sbr .\Debug\WaterShedDoc.sbr .\Debug\WaterShedView.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+WaterShed.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

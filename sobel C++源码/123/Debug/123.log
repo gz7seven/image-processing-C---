@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/9/7 16:52:35。
+     1>项目“K:\程序\自己\C++\sobel C++源码\123\123.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\123.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 123.cpp
+         123.cpp
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>k:\程序\自己\c++\sobel c++源码\123\123.cpp(90): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>k:\程序\自己\c++\sobel c++源码\123\123.cpp(90): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>k:\程序\自己\c++\sobel c++源码\123\123.cpp(24): warning C4101: “deltar”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\程序\自己\C++\sobel C++源码\Debug\123.exe" /INCREMENTAL /NOLOGO opencv_ml248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\123.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\程序\自己\C++\sobel C++源码\Debug\123.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\程序\自己\C++\sobel C++源码\Debug\123.lib" /MACHINE:X86 Debug\123.exe.embed.manifest.res
+         Debug\123.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\123.exe.embed.manifest" /manifest Debug\123.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         123.vcxproj -> K:\程序\自己\C++\sobel C++源码\Debug\123.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\123.unsuccessfulbuild”。
+         正在对“Debug\123.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“K:\程序\自己\C++\sobel C++源码\123\123.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.86
